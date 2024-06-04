@@ -236,7 +236,7 @@
     {
         display:grid;
         grid-template-columns: auto;
-        grid-template-rows: 12% 23% 115% 22%;
+        grid-template-rows: 15% 23% 115% 22%;
         grid-template-areas: 'nav'
                             'header'
                             'main'
@@ -348,7 +348,7 @@
         {
             display:grid;
             grid-template-columns:98%;
-            grid-template-rows: 12% 30% 55% 30% 12%;
+            grid-template-rows: 12% 30% 60% 30% 12%;
             grid-template-areas: 'nav'
                             'header'
                             'main'
@@ -364,7 +364,7 @@
         {
             grid-area: nav;
             align-content: center;
-            
+           
         }
     header
         {
@@ -392,16 +392,17 @@
             margin-top:25px;
             }
         
-    li
-        {
-        margin-top: 5px;
-        margin-right: 5px;            
-        margin-left: 5px;
-        }
-
-    h2
+  
+            li
+            {text-align: center;
+            margin-top: 5px;
+            margin-right: 2px;            
+            margin-left: 5px;
+            }
+        h2
         {
             font-size: 15px;
+           
         }
 
     h1
